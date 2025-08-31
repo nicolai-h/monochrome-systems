@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monochrome Systems - Company Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #E2E8F0;
+            background-color: #0f172a;
+            padding-top: 64px;
+        }
+        .bg-gradient-top {
+            background-image: radial-gradient(circle at 100% 100%, #1a202c, #0f172a, #000000);
+        }
+        .card {
+            @apply bg-gray-800 p-8 rounded-2xl shadow-lg border border-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl;
+        }
+        .section-title {
+            @apply text-4xl font-extrabold text-center mb-4;
+            background: linear-gradient(to right, #ffffff, #E2E8F0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .profile-list-item {
+            @apply flex justify-between items-start mb-4 pb-2 border-b border-gray-700;
+        }
+        .profile-list-item:last-child {
+            @apply border-b-0 mb-0 pb-0;
+        }
+        .profile-label {
+            @apply text-lg font-semibold text-gray-300 mr-4;
+        }
+        .profile-content {
+            @apply text-lg text-gray-400 text-right;
+        }
+    </style>
+</head>
+<body class="antialiased leading-relaxed">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-sm p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2 text-xl font-bold text-white">
+                <img src="images/logo.png" alt="Monochrome Systems Logo" class="h-8 w-8 rounded-lg" />
+                <span>Monochrome Systems</span>
+            </a>
+            <div class="flex space-x-6 items-center">
+                <a id="nav-brands" href="index.html" class="text-gray-300 hover:text-white transition-colors duration-200">Our Brands</a>
+                <a id="nav-about" href="about.html" class="text-gray-300 hover:text-white transition-colors duration-200">About Us</a>
+                <a id="nav-profile" href="profile.html" class="text-gray-300 hover:text-white transition-colors duration-200">Company Profile</a>
+                <button id="lang-toggle" class="ml-4 px-3 py-1 rounded-lg bg-gray-700 text-white hover:bg-gray-600 transition">日本語</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Content -->
+    <main class="py-24">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <h1 id="profileTitle" class="section-title text-center mb-12">会社概要</h1>
+            <div class="card p-12">
+                <div class="space-y-6">
+                    <div class="profile-list-item">
+                        <div class="profile-label" id="label-company">社名</div>
+                        <div class="profile-content" id="content-company">モノクローム・システムズ合同会社</div>
+                    </div>
+                    <div class="profile-list-item">
+                        <div class="profile-label" id="label-company-en">社名（英語表記）</div>
+                        <div class="profile-content" id="content-company-en">Monochrome Systems</div>
+                    </div>
+                    <div class="profile-list-item">
+                        <div class="profile-label" id="label-business">事業内容</div>
+                        <div class="profile-content" id="content-business">
+                            サイバーセキュリティコンサルティング事業 Monochrome Sec<br>
+                            日本語学習アプリ事業 Nihongolab
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-sm text-center p-8 mt-32">
+        <p class="text-sm text-gray-400 mb-4 space-x-4">
+            <a id="footerBrands" href="index.html" class="hover:underline">Our Brands</a>
+            <a id="footerAbout" href="about.html" class="hover:underline">About Us</a>
+            <a id="footerProfile" href="profile.html" class="hover:underline">Company Profile</a>
+        </p>
+        <p>&copy; 2025 Monochrome Systems (モノクローム・システムズ). All rights reserved.</p>
+    </footer>
+
+    <script src="js/lang.js"></script>
+</body>
+</html>

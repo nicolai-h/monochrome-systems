@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monochrome Systems - The Future of Digital Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: #E2E8F0; padding-top: 64px; }
+    .bg-hero-gradient { background-color:#0f172a; background-image: radial-gradient(circle at 100% 100%, #1a202c, #0f172a, #000000); }
+    .hero-btn { @apply bg-white text-black px-10 py-4 font-semibold rounded-full shadow-lg transform transition duration-300 ease-in-out hover:scale-110 hover:shadow-xl; }
+    .animate-slow-pulse { animation: slow-pulse 4s ease-in-out infinite; }
+    @keyframes slow-pulse { 0%,100%{opacity:1;} 50%{opacity:.5;} }
+  </style>
+</head>
+<body class="bg-[#0f172a] text-gray-200 antialiased leading-relaxed">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-sm p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="flex items-center space-x-2 text-xl font-bold text-white">
+        <img src="images/logo.png" alt="Monochrome Systems Logo" class="h-8 w-8 rounded-lg" />
+        <span>Monochrome Systems</span>
+      </a>
+      <div class="flex space-x-6 items-center">
+        <a id="navBrands" href="#solutions" class="text-gray-300 hover:text-white transition-colors duration-200">Our Brands</a>
+        <a id="navAbout" href="about.html" class="text-gray-300 hover:text-white transition-colors duration-200">About Us</a>
+        <a id="navProfile" href="profile.html" class="text-gray-300 hover:text-white transition-colors duration-200">Company Profile</a>
+        <button id="lang-toggle" class="ml-4 px-3 py-1 rounded-lg bg-gray-700 text-white hover:bg-gray-600 transition">日本語</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="relative overflow-hidden bg-hero-gradient h-screen flex items-center justify-center text-center">
+    <div class="absolute inset-0 bg-black opacity-30"></div>
+    <div class="relative z-10 p-6 md:p-12 max-w-4xl mx-auto">
+      <h1 id="heroTitle" class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4 animate-slow-pulse">
+        Crafting Secure & Intuitive Digital Experiences.
+      </h1>
+      <p id="heroSub" class="text-lg md:text-xl text-gray-100 mb-8">
+        Monochrome Systems specializes in creating powerful cybersecurity platforms and intuitive Japanese language applications for a global audience.
+      </p>
+      <a id="heroBtn" href="#solutions" class="hero-btn">Explore Our Brands</a>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="container mx-auto px-4 py-16 sm:py-24">
+    <section id="solutions" class="mb-20">
+      <p id="solutionsIntro" class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+        We specialize in creating robust cybersecurity platforms and innovative Japanese language learning applications.
+      </p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <!-- Cybersecurity card -->
+        <a href="#cybersecurity-page" class="card-link">
+          <div class="bg-gray-800 p-8 rounded-2xl shadow-lg border border-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+            <div class="text-4xl text-white mb-4">
+              <img src="images/sec.png" alt="Monochrome Security Icon" class="h-20 w-20 rounded-lg">
+            </div>
+            <h3 id="secTitle" class="text-2xl font-semibold mb-2 text-white">Monochrome Security</h3>
+            <p id="secDesc" class="text-gray-300">
+              Monochrome Security is a cybersecurity consultancy specializing in penetration testing. We help organizations strengthen their defenses by simulating real-world attacks to identify and address vulnerabilities before they can be exploited. Our experts deliver actionable insights and remediation strategies across web applications, networks, and cloud environments—ensuring your systems remain resilient against evolving cyber threats.
+            </p>
+          </div>
+        </a>
+
+        <!-- NihongoLab card -->
+        <a href="https://nihongolab.com/" target="_blank" class="card-link">
+          <div class="bg-gray-800 p-8 rounded-2xl shadow-lg border border-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+            <div class="text-4xl text-gray-200 mb-4">
+              <img src="images/lab2.png" alt="NihongoLab App Icon" class="h-20 w-20 rounded-lg">
+            </div>
+            <h3 id="labTitle" class="text-2xl font-semibold mb-2 text-white">NihongoLab</h3>
+            <p id="labDesc" class="text-gray-300">
+              NihongoLab is our interactive language learning application that makes mastering Japanese fun and effective. Through a gamified system, users progress step by step in Hiragana, Katakana, and Kanji with bite-sized lessons, quizzes, and challenges. Real-time progress tracking and personalized feedback keep learners motivated, while interactive exercises ensure long-term retention and practical use of the language. Going through the lessons will also help with preparing for the JLPT exams.
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 bg-opacity-70 backdrop-filter backdrop-blur-sm text-center p-8 mt-32">
+    <p class="text-sm text-gray-400 mb-4 space-x-4">
+      <a id="footerBrands" href="index.html" class="hover:underline">Our Brands</a>
+      <a id="footerAbout" href="about.html" class="hover:underline">About Us</a>
+      <a id="footerProfile" href="profile.html" class="hover:underline">Company Profile</a>
+    </p>
+    <p>&copy; 2025 Monochrome Systems (モノクローム・システムズ). All rights reserved.</p>
+  </footer>
+
+<script src="js/lang.js"></script>
+
+</body>
+</html>
