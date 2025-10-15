@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Hero (index.html)
       heroTitle: "安全で直感的なデジタル体験を創造します。",
-      heroSub: "モノクローム・システムズは、強力なサイバーセキュリティプラットフォームと直感的な日本語学習アプリを世界に提供しています。",
+      heroSub: "モノクロームシステムズは、強力なサイバーセキュリティプラットフォームと直感的な日本語学習アプリを世界に提供しています。",
       heroBtn: "ブランドを見る",
 
       // Solutions section (index.html)
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Profile section (profile.html)
       profileTitle: "会社概要",
       labelCompany: "社名",
-      contentCompany: "モノクローム・システムズ株式会社",
+      contentCompany: "合同会社モノクロームシステムズ",
       labelCompanyEn: "社名（英語表記）",
       contentCompanyEn: "Monochrome Systems",
       labelBusiness: "事業内容",
