@@ -38,7 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
       // Footer
       footerBrands: "Our Brands",
       footerAbout: "About Us",
-      footerProfile: "Company Profile"
+      footerProfile: "Company Profile",
+      footerContact: "Contact Us"
     },
     ja: {
       // Navbar
@@ -78,7 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
       // Footer
       footerBrands: "ブランド一覧",
       footerAbout: "会社概要",
-      footerProfile: "企業プロフィール"
+      footerProfile: "企業プロフィール",
+      footerContact: "お問い合わせ"
     }
   };
 
