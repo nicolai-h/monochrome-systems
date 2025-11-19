@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       labelCompanyEn: "Company Name (English)",
       contentCompanyEn: "Monochrome Systems",
       labelBusiness: "Business Activities",
-      contentBusiness: "Cybersecurity Consulting Monochrome Sec\nJapanese Language Learning App NihongoLab",
+      contentBusiness: "Cybersecurity Consulting Monochrome Security\nJapanese Language Learning App NihongoLab",
 
       // Footer
       footerBrands: "Our Brands",
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       labelCompanyEn: "社名（英語表記）",
       contentCompanyEn: "Monochrome Systems",
       labelBusiness: "事業内容",
-      contentBusiness: "サイバーセキュリティコンサルティング事業 Monochrome Sec\n日本語学習アプリ事業 NihongoLab",
+      contentBusiness: "サイバーセキュリティコンサルティング事業 Monochrome Security\n日本語学習アプリ事業 NihongoLab",
 
       // Footer
       footerBrands: "ブランド一覧",
