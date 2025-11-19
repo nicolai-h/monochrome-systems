@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
       navBrands: "Our Brands",
       navAbout: "About Us",
       navProfile: "Company Profile",
+      navContact: "Contact Us",
 
       // Hero (index.html)
       heroTitle: "Crafting Secure & Intuitive Digital Experiences.",
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       navBrands: "ブランド一覧",
       navAbout: "会社概要",
       navProfile: "企業プロフィール",
+      navContact: "お問い合わせ",
 
       // Hero (index.html)
       heroTitle: "安全で直感的なデジタル体験を創造します。",
