@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Container: rounded square -->
+  <rect x="24" y="24" width="464" height="464" rx="96" stroke="white" stroke-width="14" fill="none"/>
+
+  <!-- M - left side, bold geometric -->
+  <g stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M108 372V140l56 80 56-80v232"/>
+  </g>
+
+  <!-- S - right side, flowing -->
+  <g stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M380 192c0-30-22-52-52-52h-16c-30 0-52 22-52 52s22 42 52 52l16 4c30 10 52 24 52 52s-22 52-52 52h-16c-30 0-52-22-52-52"/>
+  </g>
+</svg>

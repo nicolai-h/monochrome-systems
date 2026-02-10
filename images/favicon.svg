@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Dark background -->
+  <rect width="512" height="512" rx="96" fill="#0a0a0a"/>
+
+  <!-- Container: rounded square outline -->
+  <rect x="40" y="40" width="432" height="432" rx="80" stroke="white" stroke-width="14" fill="none"/>
+
+  <!-- M -->
+  <g stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M118 362V150l52 74 52-74v212"/>
+  </g>
+
+  <!-- S -->
+  <g stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M370 198c0-28-20-48-48-48h-14c-28 0-48 20-48 48s20 38 48 48l14 4c28 10 48 22 48 48s-20 48-48 48h-14c-28 0-48-20-48-48"/>
+  </g>
+</svg>
